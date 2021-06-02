@@ -1,0 +1,47 @@
+<html>
+   <head>
+      <title> Categoria - Saraiva </title>
+      <link rel="stylesheet" type="text/css" href="categoria.css">
+   </head>
+   <body>
+      <div id="fundo" >
+      <br> 
+      <div id="cabecalho" >
+         <div class="zoom">
+            <img src="logozin.png" width="250" height="100">
+         </div>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cadastros.html">Cadastros</a></li>
+         </ul>
+      </div>
+      <div id="central">
+         <form name="form" method="post"  action="categoria.php" >
+            <br>
+            CADASTRAR CATEGORIAS
+            <br><br> 
+         <form name="formulario" method="post" action="">
+            <table border=0>
+               <tr>
+                  <td><input type="text" name="codcategoria" size=5 class="Log" placeholder="Informe o Codigo" required> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="descricao" size=20 class="Log" placeholder="Informe uma Descricao" required> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="codprateleira" size=5 class="Log" placeholder="Codigo da Prateleira"  required> </td>
+               </tr>
+            </table>
+            <input type="submit" name="bt_cadastrar" value="CADASTRAR" class="entrarbt">
+            <input type="submit" name="bt_excluir" value="EXCLUIR" class="entrarbt">
+            <input type="submit" name="bt_alterar" value="ALTERAR" class="entrarbt">
+            <input type="submit" name="bt_pesquisar" value="PESQUISAR" class="entrarbt">
+         </form>
+      </div>
+      <div id="rodape"> 
+         @2020 CopyRight Livraria Saraiva - Powered by: Victor
+      </div>
+   </body>
+</html>

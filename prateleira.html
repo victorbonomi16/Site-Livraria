@@ -1,0 +1,46 @@
+<html>
+   <head>
+      <title> Prateleira - Saraiva </title>
+      <link rel="stylesheet" type="text/css" href="prateleira.css">
+   </head>
+   <body>
+      <div id="fundo" >
+      <br> 
+      <div id="cabecalho" >
+         <div class="zoom">
+            <img src="logozin.png" width="250" height="100">
+         </div>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cadastros.html">Cadastros</a></li>
+         </ul>
+      </div>
+      <div id="central">
+         <form name="form" method="post"  action="prateleira.php" >
+            <br> 
+            CADASTRO PRATELEIRAS
+            <br><br> 
+            <table border=0>
+               <tr>
+                  <td><input type="text" name="codigo" size=20 class="Log" placeholder="Digite o Codigo" required> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="descricao" size=20 class="Log" placeholder="Informe uma Descricao" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="capacidade" size=20 class="Log" placeholder="Informe a Capacidade"> </td>
+               </tr>
+            </table>
+            <input type="submit" name="bt_cadastrar" value="CADASTRAR" class="entrarbt">
+            <input type="submit" name="bt_excluir"   value="EXCLUIR" class="entrarbt">
+            <input type="submit" name="bt_alterar"   value="ALTERAR" class="entrarbt">
+            <input type="submit" name="bt_pesquisar" value="PESQUISAR" class="entrarbt">
+         </form>
+      </div>
+      <div id="rodape"> 
+         @2020 CopyRight Livraria Saraiva - Powered by: Victor
+      </div>
+   </body>
+</html>

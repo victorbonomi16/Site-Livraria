@@ -1,0 +1,60 @@
+<html>
+   <head>
+      <title> Home - Saraiva </title>
+      <link rel="stylesheet" type="text/css" href="home.css">
+   </head>
+   <body>
+      <div id="fundo" >
+      <br> 
+      <div id="cabecalho" >
+         <div class="zoom">
+            <img src="logozin.png" width="250" height="100">
+         </div>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+         </ul>
+      </div>
+      <div id="central">
+         <img src="vin.png" width="275" height="75">
+         <br>
+         <table border="0" cellspacing="20" cellpadding=15  >
+            <tr>
+               <td>
+                  <script type="text/javascript">
+                     function slide1(){
+                     document.getElementById('id').src="livro11.jpg";
+                     setTimeout("slide2()",3000)
+                     document.getElementById('aId')
+                     }
+                     
+                     function slide2(){
+                     document.getElementById('id').src="livo2.jpg";
+                     setTimeout("slide3()",3000)
+                     document.getElementById('aId')
+                     }
+                     
+                     function slide3(){
+                     document.getElementById('id').src="livro3.jpg";
+                     setTimeout("slide1()",3000)
+                     document.getElementById('aId')
+                     }
+                      
+                  </script>
+                  <body onload="slide1()">
+                     <a id="aId"><img id="id"></a>
+               </td>
+               <td>Ha anos atuando no comercio de livros de variados generos, a Livraria Saraiva passou tambem a publicar livros.<br> <br>
+               Este  portal e nossa nova ferramenta de comunicacao com nossos clientes.
+               Atendemos a pedidos de livros nacionais e importados na area da saude.
+               <br>
+            </tr>
+         </table>
+      </div>
+      <div id="rodape"> 
+      @2020 CopyRight Livraria Saraiva - Powered by: Victor
+      </div>   
+   </body>
+</html>

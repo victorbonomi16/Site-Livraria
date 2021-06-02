@@ -1,0 +1,69 @@
+<html>
+   <head>
+      <title> Livro - Saraiva </title>
+      <link rel="stylesheet" type="text/css" href="livro.css">
+   </head>
+   <body>
+      <div id="fundo" >
+      <br> 
+      <div id="cabecalho" >
+         <div class="zoom">
+            <img src="logozin.png" width="250" height="100">
+         </div>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cadastros.html">Cadastros</a></li>
+         </ul>
+      </div>
+      <div id="central">
+         <form name="form" method="post"  action="livro.php" enctype="multipart/form-data" >
+            <br>
+            CADASTRAR LIVROS 
+            <br> 
+            <table border=0>
+               <tr>
+                  <td><input type="text" name="codigo" size=20 class="Log" placeholder="Codigo do livro" required> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="isbn" size=20 class="Log" placeholder="ISBN" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="titulo" size=20 class="Log" placeholder="Titulo" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="ano" size=20 class="Log" placeholder="Ano" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="nrpaginas" size=20 class="Log" placeholder="Numero de paginas"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="edicao" size=20 class="Log" placeholder="Edicao" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="idioma" size=20 class="Log" placeholder="Idioma" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="codeditora" size=20 class="Log" placeholder="Codigo da Editora"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="codcategoria" size=20 class="Log" placeholder="Codigo da Categoria" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="codautor" size=20 class="Log" placeholder="Codigo do Autor" > </td>
+               </tr>
+               <td><input type="file" name="foto"> </td>
+               </tr>
+            </table>
+            <input type="submit" name="bt_cadastrar" value="CADASTRAR" class="entrarbt">
+            <input type="submit" name="bt_excluir" value="EXCLUIR" class="entrarbt">
+            <input type="submit" name="bt_alterar" value="ALTERAR" class="entrarbt">
+            <input type="submit" name="bt_pesquisar" value="PESQUISAR" class="entrarbt">
+         </form>
+      </div>
+      <div id="rodape"> 
+         @2020 CopyRight Livraria Saraiva - Powered by: Victor
+      </div>
+   </body>
+</html>

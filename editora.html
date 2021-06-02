@@ -1,0 +1,56 @@
+<html>
+   <head>
+      <title> Editora - Saraiva </title>
+      <link rel="stylesheet" type="text/css" href="editora.css">
+   </head>
+   <body>
+      <div id="fundo" >
+      <br> 
+      <div id="cabecalho" >
+         <div class="zoom">
+            <img src="logozin.png" width="250" height="100">
+         </div>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cadastros.html">Cadastros</a></li>
+         </ul>
+      </div>
+      <div id="central">
+         <form name="form" method="post"  action="editora.php" >
+            <br>
+            CADASTRAR EDITORA
+            <br><br> 
+         <form name="formulario" method="post" action="">
+            <table border=0>
+               <tr>
+                  <td><input type="text" name="codigo" size=20 required class="Log" placeholder="Codigo da Editora"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="nome" size=20  class="Log" placeholder="Nome da Editora"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="endereco" size=20 class="Log" placeholder="Endereco"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="cidade" size=20 class="Log" placeholder="Cidade" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="estado" size=20 class="Log" placeholder="Estado" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="telefone" size=20  class="Log" placeholder="Telefone"> </td>
+               </tr>
+            </table>
+            <input type="submit" name="bt_cadastrar" value="CADASTRAR" class="entrarbt">
+            <input type="submit" name="bt_excluir" value="EXCLUIR" class="entrarbt">
+            <input type="submit" name="bt_alterar" value="ALTERAR" class="entrarbt">
+            <input type="submit" name="bt_pesquisar" value="PESQUISAR" class="entrarbt">
+         </form>
+      </div>
+      <div id="rodape"> 
+         @2020 CopyRight Livraria Saraiva - Powered by: Victor
+      </div>
+   </body>
+</html>

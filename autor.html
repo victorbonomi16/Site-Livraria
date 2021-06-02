@@ -1,0 +1,53 @@
+<html>
+   <head>
+      <title> Autor - Saraiva </title>
+      <link rel="stylesheet" type="text/css" href="autor.css">
+   </head>
+   <body>
+      <div id="fundo" >
+      <br> 
+      <div id="cabecalho" >
+         <div class="zoom">
+            <img src="logozin.png" width="250" height="100">
+         </div>
+      </div>
+      <div id="menu">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cadastros.html">Cadastros</a></li>
+         </ul>
+      </div>
+      <div id="central">
+         <form name="form" method="post"  action="autor.php" >
+            <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+            <br>
+            CADASTRAR AUTOR
+            <br><br> 
+            <table border=0>
+               <tr>
+                  <td><input type="text" name="codautor" size=20 required class="Log" placeholder="Codigo do Autor"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="nome" size=20 class="Log" placeholder="Nome do Autor" > </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="nacionalidade" size=20 class="Log" placeholder="Nacionalidade"> </td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="ocupacao" size=20 class="Log" placeholder="Ocupacao" > </td>
+               </tr>
+               <tr>
+                  <td><input type="date" name="data_nascimento" size=20 class="Log" placeholder="Data de Nascimento" > </td>
+               </tr>
+            </table>
+            <input type="submit" name="bt_gravar" value="CADASTRAR" class="entrarbt">
+            <input type="submit" name="bt_excluir" value="EXCLUIR" class="entrarbt">
+            <input type="submit" name="bt_alterar" value="ALTERAR" class="entrarbt">
+            <input type="submit" name="bt_pesquisar" value="PESQUISAR" class="entrarbt">
+         </form>
+      </div>
+      <div id="rodape"> 
+         @2020 CopyRight Livraria Saraiva - Powered by: Victor
+      </div>
+   </body>
+</html>
